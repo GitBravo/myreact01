@@ -6,12 +6,12 @@ function Lifecycle() {
 
   // 컴포넌트의 마운트 시점에 동작
   useEffect(() => {
-    console.log("Mount!");
+    console.log(`Mount!`);
   }, []);
 
   // 컴포넌트의 업데이트 시점에 동작
   useEffect(() => {
-    console.log("Update!");
+    console.log(`Update!`);
   });
 
   // 컴포넌트의 언마운트 시점에 동작
